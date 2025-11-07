@@ -49,7 +49,5 @@ pipeline {
     }
   }
 
-  post {
-    success { echo "배포 완료: ${TOMCAT_URL}/${APP_NAME}/" }
-  }
+  
 }
